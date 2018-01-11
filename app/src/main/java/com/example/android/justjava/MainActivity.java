@@ -82,17 +82,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String createOrderSubject(String userName){
-        String subjectMessage = "JustJava order for " + userName;
+        String subjectMessage = getString(R.string.order_name, userName);
         return subjectMessage;
     }
 
     private String createOrderSummary(String userName, boolean hasWhippedCream, boolean hasChocolate, int price){
-        String priceMessage = "Name: " + userName + "\n";
-        priceMessage += "Add whipped cream? " + hasWhippedCream + "\n";
-        priceMessage += "Add chocolate? " + hasChocolate + "\n";
-        priceMessage += "Quantity: " + quantity + "\n";
-        priceMessage += "Total: $" + price + "\n";
-        priceMessage += "Thank You!";
+        String priceMessage = getString(R.string.is_order_summary, userName) + "\n";
+        priceMessage += getString(R.string.add_whipped_cream) + hasWhippedCream + "\n";
+        priceMessage += getString(R.string.add_chocolate) + hasChocolate + "\n";
+        priceMessage += getString(R.string.is_quantity) + quantity + "\n";
+        priceMessage += getString(R.string.total) + price + "\n";
+        priceMessage += getString(R.string.thank_you);
         return priceMessage;
     }
 

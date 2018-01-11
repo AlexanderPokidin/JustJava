@@ -12,14 +12,14 @@
             android:id="@+id/user_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name"
+            android:hint="@string/name"
             android:backgroundTint="@color/colorPrimary"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="toppings"
+            android:text="@string/toppings"
             android:textAllCaps="true" />
 
         <CheckBox
@@ -30,7 +30,7 @@
             android:buttonTint="@color/colorPrimary"
             android:checked="false"
             android:paddingLeft="24dp"
-            android:text="Whipped cream"
+            android:text="@string/whipped_cream"
             android:textSize="16sp" />
 
         <CheckBox
@@ -41,14 +41,14 @@
             android:buttonTint="@color/colorPrimary"
             android:checked="false"
             android:paddingLeft="24dp"
-            android:text="Chocolate"
+            android:text="@string/chocolate"
             android:textSize="16sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Quantity"
+            android:text="@string/quantity"
             android:textAllCaps="true" />
 
         <LinearLayout
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Order summary"
+            android:text="@string/order_summary"
             android:textAllCaps="true" />
 
         <TextView
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:onClick="submitOrder"
             android:padding="8dp"
-            android:text="Order" />
+            android:text="@string/order" />
 
     </LinearLayout>
 
