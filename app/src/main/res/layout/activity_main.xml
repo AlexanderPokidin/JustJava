@@ -16,11 +16,9 @@
             android:backgroundTint="@color/colorPrimary"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/toppings"
-            android:textAllCaps="true" />
+            android:text="@string/toppings" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
@@ -45,11 +43,9 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/HeaderTextStyle"
             android:layout_marginBottom="16dp"
-            android:text="@string/quantity"
-            android:textAllCaps="true" />
+            android:text="@string/quantity" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -83,21 +79,21 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/order_summary"
-            android:textAllCaps="true" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:text="@string/order_summary"-->
+            <!--android:textAllCaps="true" />-->
 
-        <TextView
-            android:id="@+id/order_summary_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="$10"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
+        <!--<TextView-->
+            <!--android:id="@+id/order_summary_text_view"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:text="$10"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="16sp" />-->
 
         <Button
             android:layout_width="wrap_content"
