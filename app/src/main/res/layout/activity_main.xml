@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/name"
-            android:backgroundTint="@color/colorPrimary"/>
+            android:backgroundTint="#ff6d00"/>
 
         <TextView
             style="@style/HeaderTextStyle"
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:buttonTint="@color/colorPrimary"
+            android:buttonTint="#ff6d00"
             android:checked="false"
             android:paddingLeft="24dp"
             android:text="@string/whipped_cream"
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:buttonTint="@color/colorPrimary"
+            android:buttonTint="#ff6d00"
             android:checked="false"
             android:paddingLeft="24dp"
             android:text="@string/chocolate"
