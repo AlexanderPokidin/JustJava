@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/AlexanderPokidin/JustJava.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ArturVasilov/AndroidSchool/tree/master/TestApp" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\unit\AndroidStudioProjects" />
