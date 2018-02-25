@@ -26,9 +26,13 @@
           <option name="url" value="https://github.com/AlexanderPokidin/AndroidSchool.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/AlexanderPokidin/WhereToGo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\unit\AndroidStudioProjects" />
+    <option name="cloneParentDir" value="C:\Users\unit\StudioProjects" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Android Studio/https:/github.com/AlexanderPokidin" />
