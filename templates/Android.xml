@@ -1,0 +1,5 @@
+<templateSet group="Android">
+  <template name="ld" value="Log.d(&quot;M_$className$&quot;, &quot;$END$&quot;)" description="Log.d(TAG&quot;, Message)" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
